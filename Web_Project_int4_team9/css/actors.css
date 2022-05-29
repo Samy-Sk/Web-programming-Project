@@ -38,23 +38,23 @@ section a{
     max-height:100%;
 }
 
-#nasa:hover{
+#nasa0:hover{
     background-color: transparent;
     color: aliceblue;
 }
-#esa:hover{
+#esa0:hover{
     background-color: transparent;
     color: aliceblue;
 }
-#roscosmos:hover{
+#roscosmos0:hover{
     background-color: transparent;
     color: aliceblue;
 }
-#spacex:hover{
+#spacex0:hover{
     background-color: transparent;
     color: aliceblue;
 }
-#blueorigin:hover{
+#blueorigin0:hover{
     background-color: transparent;
     color: aliceblue;
 }

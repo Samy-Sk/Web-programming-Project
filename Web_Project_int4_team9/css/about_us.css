@@ -1,12 +1,15 @@
-div{
+section div{
  
     background-color: black;
-  
+
     color:lightgray;
     font-size: 1.4em;
     text-align: justify;
     width: 100%;
     display: flex;
+}
+section h1 {
+    font-size: 0px;
 }
 
 body{
@@ -21,6 +24,6 @@ body{
 .names{
 
     display: flex;
-    text-align: center;
+    text-align: left;
     width: 100%;
 }

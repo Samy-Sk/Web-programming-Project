@@ -1,5 +1,7 @@
 section{
-    margin:auto;
+    margin-left:20px;
+    text-align: left;
+
     color: aliceblue;
 }
 
@@ -11,6 +13,7 @@ section h2{
     color: lightslategray;
 }
 #news{
+    max-width: 97%;
     font-size: 40px;
     color: white;
     background-image: url(../images/banner.png);
@@ -27,16 +30,27 @@ body {
     font-family : sans-serif;
     text-align: center;
   }
+@media screen and (min-width: 601px) {
+    section div {
+    font-size: 20px;
+    }
+}
+@media screen and (max-width: 600px) {
+    section div {
+    font-size: 14px;
+    }   
+}
 
 section div{
     text-align: left;
-    width: 500px;
     padding: 0;
     margin: 10px;
-    font-size: 20px;
 }
 #img{
     outline: 1px solid white;
+}
+#p1{
+    margin-left: 100px;
 }
 hr{
     margin-top: 20px;
