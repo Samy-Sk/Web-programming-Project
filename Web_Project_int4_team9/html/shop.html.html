@@ -1,0 +1,176 @@
+
+<!DOCTYPE html>
+<html lang="fr" xmlns="http://www.w3.org/1999/html">
+
+
+    <head>
+        <meta charset = "utf-8">
+        <title>Shop</title>
+        <meta name="description" content="This is the description">
+        <link rel="stylesheet" href="/css/shop.css.css" />
+        <script src="/js/store.js" async></script>
+
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel= "stylesheet" href = "/css/header_footer_style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    </head>
+
+
+
+
+    <body background="/images/bg-main.jpg">
+
+        <header>
+            <ul class="fa-ul">
+                <li><div style="width: 200px;height:60px;border:1px solid #000;"><a href="#"><img id="logo" src="/images/test.png" alt="Logo" height="66" width="205"></a></div></li>
+                <li><a href="https://www.youtube.com/watch?v=eJO5HU_7_1w&list=RDLDj8kkVwisY&index=2">Explore</a></li>
+                <li><a href="https://www.youtube.com/watch?v=YVkUvmDQ3HY&list=RDLDj8kkVwisY&index=3">News</a></li>
+                <li><a href="https://www.youtube.com/watch?v=U1th94xR694&list=RDLDj8kkVwisY&index=4"><i class="fa fa-shopping-cart"></i></a></li>
+            </ul>
+        </header>
+
+
+
+
+
+
+
+        <marquee class ="image_defile" behavior="alternate" width="100%" scrollamount="10" scrolldelay="10">
+            <!-- L'objet parcourt 2px chaque 10ms -->
+            <img src="/images/space_store.png">
+        </marquee>
+
+        <div class=" container">
+
+            <section>
+
+                <h1 id="spaceShop" > <strong> SPACE SHOP</strong></h1>
+
+                <div class="slider">
+                    <span id="slide-1"></span>
+                    <span id="slide-2"></span>
+                    <span id="slide-3"></span>
+                    <div class="image-container">
+                        <img src="/images/maquette_ariane6.jpg" class="slide" width="500" height="300" />
+                        <img src="/images/maquette_saturneV.jpg" class="slide" width="500" height="300" />
+                        <img src="/images/maquette_falcon9.jpg" class="slide" width="500" height="300" />
+
+                    </div>
+                    <div class="buttons">
+                        <a href="#slide-1"></a>
+                        <a href="#slide-2"></a>
+                        <a href="#slide-3"></a>
+                    </div>
+                </div>
+
+
+                <div class="myText ">
+                    <p class="p1">
+                    Buy the future Ariane 6 rocket !
+                    Ariane 6 is modular, flexible and competitive
+                    and will be the optimum launch solution for commercial
+                    and institutional customers.
+                    This new launcher – developed by ArianeGroup and its European industrial partners
+                    – combines proven solutions with innovation.
+                    </p>
+
+                    <p class ="p2 " >
+
+                    The Saturn V was a rocket NASA built to send people to the moon.
+                    A Heavy Lift Vehicle, it was the most powerful rocket that had ever flown successfully.
+
+                    The Saturn V was used in the Apollo program in the 1960s and 1970s and was also used to launch the
+                    Skylab space station.
+
+                    </p>
+
+                    <p class =  p3 >
+
+                    Falcon 9 is a reusable, two-stage rocket designed and manufactured by SpaceX for the reliable and safe transport of people and payloads into Earth orbit and beyond.
+                    Falcon 9 is the world’s first orbital class reusable rocket. Reusability allows SpaceX to refly the most expensive parts of the rocket,
+                    which in turn drives down the cost of space access.
+
+
+                    </p>
+
+                </div>
+
+        </div>
+
+        <section class="container content-section">
+            <h2 class="section-header"><strong> CHOOSE YOUR ARTICLE </strong> </h2>
+            <div class="shop-items">
+                <div class="shop-item">
+                    <span class="shop-item-title">Ariane 6 </span>
+                    <img class="shop-item-image" src="/images/maquette_ariane6.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$12.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Saturn V</span>
+                    <img class="shop-item-image" src="/images/maquette_saturneV.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$14.99</span>
+                        <button class="btn btn-primary shop-item-button"type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Falcon 9</span>
+                    <img class="shop-item-image" src="/images/maquette_falcon9.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$9.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Ariane V</span>
+                    <img class="shop-item-image" src="/images/maquette_ariane5.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$19.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container content-section">
+            <h2 class="section-header"> <strong> CART </strong> </h2>
+            <div class="cart-row">
+                <span class="cart-item cart-header cart-column">ITEM</span>
+                <span class="cart-price cart-header cart-column">PRICE</span>
+                <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+            </div>
+            <div class="cart-items">
+            </div>
+            <div class="cart-total">
+                <strong class="cart-total-title">Total</strong>
+                <span class="cart-total-price">$0</span>
+            </div>
+            <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+        </section>
+
+</body>
+
+
+    <footer>
+        <ul>
+            <li class="about-us"><a href="https://www.youtube.com/watch?v=LDj8kkVwisY&list=RDLDj8kkVwisY&start_radio=1">About us</a></li>
+            <li><p>Vroom vroom la fusée</p></li>
+            <div id="links" class="fa-brands">
+                <li><a href=""><i class="fa fa-instagram"></i></a></li>
+                <li><a href=""><i class="fa fa-twitter"></i></a></li>
+            </div>
+
+        </ul>
+    </footer>
+
+
+
+
+</html>
+
+
+
