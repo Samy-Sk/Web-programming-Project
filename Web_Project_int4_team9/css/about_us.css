@@ -1,11 +1,7 @@
 div{
-    background-attachment: fixed;
-    background-image: url(../images/espace.jpg);
-    /* https://www.unep.org/resources/frontiers-2022-noise-blazes-and-mismatches */
-    background-size: cover;
-
+ 
     background-color: black;
-    background-repeat: no-repeat;
+  
     color:lightgray;
     font-size: 1.4em;
     text-align: justify;
