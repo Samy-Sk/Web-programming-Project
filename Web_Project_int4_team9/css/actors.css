@@ -1,4 +1,4 @@
-h1{
+section h1{
     text-align: center;
     border:solid;
     border-radius: 50px;
@@ -6,12 +6,12 @@ h1{
     background-color: white;
 }
 
-div{
+section div{
     margin-top: 59px;
     margin-bottom: 100px;
 }
 
-img{
+section img{
     vertical-align: center;
 }
 
@@ -22,8 +22,9 @@ img{
     vertical-align: center;
 }
 
-a{
+section a{
     color: red;
+    text-decoration: none;
     padding: 1.5em;
     text-align: center;
    max-height: 10%;
@@ -31,11 +32,32 @@ a{
 
 }
 
-.intro{
+.intro{ 
+    margin-bottom: 40px;
     font-size: 1.3em;
     max-height:100%;
 }
 
+#nasa:hover{
+    background-color: transparent;
+    color: aliceblue;
+}
+#esa:hover{
+    background-color: transparent;
+    color: aliceblue;
+}
+#roscosmos:hover{
+    background-color: transparent;
+    color: aliceblue;
+}
+#spacex:hover{
+    background-color: transparent;
+    color: aliceblue;
+}
+#blueorigin:hover{
+    background-color: transparent;
+    color: aliceblue;
+}
 
 .text{
 
@@ -54,7 +76,9 @@ a{
 }
 
 .summary{
+    margin-top: 0;
     margin-left: 250px;
+    margin-right: 20px;
     font-size: 1.4em;
     text-align: justify;
     display: flex;
